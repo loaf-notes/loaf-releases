@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "generated": "2026-10-18T07:56:42Z",
+  "channels": {
+    "stable": {
+      "version": "0.11.0",
+      "build": 3574517,
+      "released": "2026-10-18T07:56:42Z",
+      "notes": "- Версия для Windows 10 и 11: те же заметки, синхронизация, общие пространства и MCP для Claude, вход по Windows Hello\n- Loaf сам сообщает, что вышла новая версия, и скачивает её после вашего нажатия; проверку можно выключить в настройках\n- На iPhone исправлены экран пары устройств, лишние пространства с других устройств и сообщения об ошибках\n- Картинка вместо значка пространства и аккуратные эмодзи\n- Подключение Claude (MCP) больше не обрывается само: порт и токен сохраняются",
+      "platforms": {
+        "macos": {
+          "version": "0.11.0",
+          "build": 3574517,
+          "url": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.11.0%2B3574517/Loaf-0.11.0-3574517.dmg",
+          "sha256": "5778c795a0b55107ee166f5c7f0b51548d39c64d4c79fbcfdc1e6401cd880bb8",
+          "size": 36888352
+        },
+        "windows": {
+          "version": "0.11.0",
+          "build": 3574517,
+          "setupUrl": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.11.0%2B3574517/Loaf-0.11.0-windows-setup.exe",
+          "setupSha256": "f2e12fc0d93eaffc41590237e6a085f601367b2efe27b594e9426f58d927f397",
+          "setupSize": 17998132,
+          "zipUrl": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.11.0%2B3574517/Loaf-0.11.0-windows-x64.zip",
+          "zipSha256": "c2a2fac656bcaed0e932d7cdd672d28259cd6324ddaaa4e13390b0d2f459a881",
+          "zipSize": 24232059
+        },
+        "ios": {
+          "version": "0.11.0",
+          "testflightBuild": 3574517
+        }
+      }
+    }
+  }
+}
