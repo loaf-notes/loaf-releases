@@ -1,33 +1,33 @@
 {
   "schema": 1,
-  "generated": "2026-10-20T18:59:07Z",
+  "generated": "2026-10-21T18:34:48Z",
   "channels": {
     "stable": {
-      "version": "0.13.1",
-      "build": 3578061,
-      "released": "2026-10-20T18:59:07Z",
-      "notes": "- Заметки можно закреплять: пункт «Закрепить» в меню строки списка (на телефоне долгое нажатие) и кнопка с булавкой в верхней панели открытой заметки; закреплённые заметки лежат наверху списка в разделе «Закреплённые», вне разделов статусов\n- Закрепление синхронизируется между вашими устройствами и общими пространствами, видно в истории заметки, Claude может закреплять и откреплять заметки",
+      "version": "0.13.2",
+      "build": 3579473,
+      "released": "2026-10-21T18:34:48Z",
+      "notes": "- «Быстро добавить» из открытой папки создаёт заметку в этой папке\n- Заметку можно переместить в папку: «Переместить в папку…» в меню строки списка и кнопка с папкой в верхней панели открытой заметки\n- В «Все заметки» появился фильтр по папкам: воронка в шапке списка, отметки у папок (отметка действует и на вложенные), «Заметки вне папок», «Показать все» и «Скрыть все»; выбор помнится на этом устройстве\n- В общих пространствах у заметки есть исполнитель: выбирается из участников в строке свойств, виден аватаром в списке, синхронизируется, пишется в историю заметки; Claude тоже может его назначать",
       "platforms": {
         "macos": {
-          "version": "0.13.1",
-          "build": 3578061,
-          "url": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.1%2B3578061/Loaf-0.13.1-3578061.dmg",
-          "sha256": "0811c17bf0b5e24dc272f379af4452288f0fabe4d279e5a527fd4736fa4345f2",
-          "size": 37419309
+          "version": "0.13.2",
+          "build": 3579473,
+          "url": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.2%2B3579473/Loaf-0.13.2-3579473.dmg",
+          "sha256": "3c4ab9fb9392ec5fce9417d7c6d8f4ee180f1c1355ba4004e5f16582007889ee",
+          "size": 37500462
         },
         "windows": {
-          "version": "0.13.1",
-          "build": 3578061,
-          "setupUrl": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.1%2B3578061/Loaf-0.13.1-windows-setup.exe",
-          "setupSha256": "5f34e7a700801146d92e8c3c99ed8ff5d4fd170932d292f3ecee22854134ecdb",
-          "setupSize": 18172204,
-          "zipUrl": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.1%2B3578061/Loaf-0.13.1-windows-x64.zip",
-          "zipSha256": "b10f76e5a0718234cd851da1b22a738be50229d8748b9c2f6d2d9cf715f64198",
-          "zipSize": 24480453
+          "version": "0.13.2",
+          "build": 3579473,
+          "setupUrl": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.2%2B3579473/Loaf-0.13.2-windows-setup.exe",
+          "setupSha256": "3ded7f7bb7042066046ac21b4ed7c53721d98afb9bf5e5247fead76fc85dee37",
+          "setupSize": 18196251,
+          "zipUrl": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.2%2B3579473/Loaf-0.13.2-windows-x64.zip",
+          "zipSha256": "9e1844a62ae650aa00c3ac6cad9166430bcd76f5fc0cab0e65ba2c0ff65037e0",
+          "zipSize": 24512258
         },
         "ios": {
-          "version": "0.13.1",
-          "testflightBuild": 3578061
+          "version": "0.13.2",
+          "testflightBuild": 3579473
         }
       }
     }
