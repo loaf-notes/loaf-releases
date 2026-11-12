@@ -1,33 +1,33 @@
 {
   "schema": 1,
-  "generated": "2026-10-30T20:05:07Z",
+  "generated": "2026-11-12T08:44:25Z",
   "channels": {
     "stable": {
-      "version": "0.13.3",
-      "build": 3592531,
-      "released": "2026-10-30T20:05:07Z",
-      "notes": "- Исправлена бесконечная синхронизация после закрытой крышки ноутбука: после сна Loaf больше не ждёт соединения, которые умерли, а сбрасывает их и сразу синхронизируется заново; запрос к хранилищу, который не отвечает, теперь заканчивается ошибкой, а не висит, и обычная синхронизация возобновляется сама (перезапуск не нужен)\n- Разделы списка («Закреплённые», «Без статуса», «В работе», «Готово» и остальные) сворачиваются нажатием на заголовок; свёрнутый раздел показывает только число заметок, выбор помнится на этом устройстве\n- Статус заметки выглядит аккуратнее: крупный чип и меню, где у каждого статуса его цвет, а текущий отмечен галочкой\n- Ссылки на заметку и папку: «Копировать ссылку» в меню заметки и папки, ссылка вида loaf://space/… открывает Loaf прямо на нужной заметке или папке (на Mac, iPhone и в установленной версии для Windows)",
+      "version": "0.13.4",
+      "build": 3610566,
+      "released": "2026-11-12T08:44:25Z",
+      "notes": "- Любой markdown-файл (.md, .markdown и похожие) можно открыть в Loaf и прочитать, не делая из него заметку: «Открыть с помощью → Loaf» в Finder, Проводнике и на iPhone, перетаскивание на значок. Текст выглядит так же, как заметка, а «Сохранить в Loaf…» превращает файл в заметку; Loaf не становится программой по умолчанию для .md",
       "platforms": {
         "macos": {
-          "version": "0.13.3",
-          "build": 3592531,
-          "url": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.3%2B3592531/Loaf-0.13.3-3592531.dmg",
-          "sha256": "f8326c1ec8aa285c4b7338fe709d08c230af4908646d675e11d89c5c4a8c5b35",
-          "size": 37573475
+          "version": "0.13.4",
+          "build": 3610566,
+          "url": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.4%2B3610566/Loaf-0.13.4-3610566.dmg",
+          "sha256": "e3386b31dc1400e6004ec6ac84a675d8958642815f4fad1a0fe5e69a208ef6a5",
+          "size": 37583617
         },
         "windows": {
-          "version": "0.13.3",
-          "build": 3592531,
-          "setupUrl": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.3%2B3592531/Loaf-0.13.3-windows-setup.exe",
-          "setupSha256": "e306e470e03031ef7eccd4b1453cd155277fd2619c4902172195833d38c81b48",
-          "setupSize": 18254054,
-          "zipUrl": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.3%2B3592531/Loaf-0.13.3-windows-x64.zip",
-          "zipSha256": "c074aed4a5fb168addb387ebcde35d3df8e543acc7f693e9aee126a8f2b1e0b0",
-          "zipSize": 24616222
+          "version": "0.13.4",
+          "build": 3610566,
+          "setupUrl": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.4%2B3610566/Loaf-0.13.4-windows-setup.exe",
+          "setupSha256": "0bef4e5f8bc72c0c6088502fcf54f5217bd5b912a9431f6cf8988ae6e53acc32",
+          "setupSize": 18259100,
+          "zipUrl": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.4%2B3610566/Loaf-0.13.4-windows-x64.zip",
+          "zipSha256": "2517f7e0cac36483ad3f742fd7ba0f4bdfe8b3a9871d45a36afd4c0b8f97431a",
+          "zipSize": 24623077
         },
         "ios": {
-          "version": "0.13.3",
-          "testflightBuild": 3592531
+          "version": "0.13.4",
+          "testflightBuild": 3610566
         }
       }
     }
