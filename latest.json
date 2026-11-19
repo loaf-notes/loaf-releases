@@ -1,33 +1,33 @@
 {
   "schema": 1,
-  "generated": "2026-11-17T19:51:00Z",
+  "generated": "2026-11-19T20:26:01Z",
   "channels": {
     "stable": {
-      "version": "0.13.6",
-      "build": 3618409,
-      "released": "2026-11-17T19:51:00Z",
-      "notes": "- Анимации стали точнее и спокойнее: быстрые отклики при наведении, выходы короче входов, у чисел в счётчиках ровные цифры; при включённом «уменьшить движение» вместо движения короткое плавное появление\n- В верхней панели заметки подпись «Изменено» раньше сокращается до времени, чтобы хлебным крошкам хватало места рядом с кнопкой «На весь экран»\n- iPhone: исправлена настройка открытия файлов, на которую жаловался App Store Connect",
+      "version": "0.13.7",
+      "build": 3621346,
+      "released": "2026-11-19T20:26:01Z",
+      "notes": "- Claude и MCP: в настройках у каждого общего пространства, открытого Claude, появился переключатель «Файлы в чужие заметки». Включённый, он позволяет Claude добавлять файлы (например, архивы и md-файлы) в заметки других участников; их текст Claude по-прежнему не меняет. Включение спрашивает пароль или палец, выключение действует сразу, добавленное можно убрать в журнале\n- Если Claude отказали в правке из-за чужого автора, ответ теперь подсказывает, где это разрешить, а когда в Loaf не задано имя, говорит об этом вместо «заметка чужая»",
       "platforms": {
         "macos": {
-          "version": "0.13.6",
-          "build": 3618409,
-          "url": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.6%2B3618409/Loaf-0.13.6-3618409.dmg",
-          "sha256": "4c016cae9c69eb57c8af62a96bbced951cf654e1e3a949dcbf02f5b61dd55434",
-          "size": 37597272
+          "version": "0.13.7",
+          "build": 3621346,
+          "url": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.7%2B3621346/Loaf-0.13.7-3621346.dmg",
+          "sha256": "ec5c04c3fa6f3a80274999ffb7c5122d60bd8119654c2f51ea279a7ddee2fcc5",
+          "size": 37597776
         },
         "windows": {
-          "version": "0.13.6",
-          "build": 3618409,
-          "setupUrl": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.6%2B3618409/Loaf-0.13.6-windows-setup.exe",
-          "setupSha256": "ad4d48a9e9d87ce2ecc404e287c8ea87499f68a8eee00e0d525d6c89003c16df",
-          "setupSize": 18267931,
-          "zipUrl": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.6%2B3618409/Loaf-0.13.6-windows-x64.zip",
-          "zipSha256": "17828a5f4219b5b6353660ab9b35b11d3edd2cf34a0b4b1158f43d6a22ca1555",
-          "zipSize": 24639443
+          "version": "0.13.7",
+          "build": 3621346,
+          "setupUrl": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.7%2B3621346/Loaf-0.13.7-windows-setup.exe",
+          "setupSha256": "884ac2c303a3e37bc2215298a55422acc1aa115abdea13b7b9d880b6e2042a49",
+          "setupSize": 18268876,
+          "zipUrl": "https://github.com/loaf-notes/loaf-releases/releases/download/v0.13.7%2B3621346/Loaf-0.13.7-windows-x64.zip",
+          "zipSha256": "a2ce6c09a8be513accabb10cb94708dd4054c9787988b5304dca6936b1f80244",
+          "zipSize": 24641842
         },
         "ios": {
-          "version": "0.13.6",
-          "testflightBuild": 3618409
+          "version": "0.13.7",
+          "testflightBuild": 3621346
         }
       }
     }
